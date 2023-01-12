@@ -1,6 +1,6 @@
 # TestVagrant-Technologies
 
-step 1- Just run the program.
+step 1- Just run the program(java code or python code).
 
 step 2- it will ask you to enter the weekly budget that the user has allocated to his subscriptions.
 
