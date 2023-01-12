@@ -57,36 +57,36 @@ public class Main{
     for(String day:TOI.keySet()){
       sum+=TOI.get(day);
     }
-    System.out.println(sum);
+    //System.out.println(sum);
     sumArr[index++]=sum;
     sum=0;
 
     for(String day:Hindu.keySet()){
-      System.out.print(Hindu.get(day)+" ");
+      //System.out.print(Hindu.get(day)+" ");
       sum+=Hindu.get(day);
     }
-    System.out.println(sum);
+   // System.out.println(sum);
     sumArr[index++]=sum;
     sum=0;
 
     for(String day:ET.keySet()){
       sum+=ET.get(day);
     }
-    System.out.println(sum);
+    //System.out.println(sum);
     sumArr[index++]=sum;
     sum=0;
 
     for(String day:BM.keySet()){
       sum+=BM.get(day);
     }
-    System.out.println(sum);
+   // System.out.println(sum);
     sumArr[index++]=sum;
     sum=0;
 
     for(String day:HT.keySet()){
       sum+=HT.get(day);
     }
-    System.out.println(sum);
+   // System.out.println(sum);
     sumArr[index++]=sum;
 
     HashMap<String,Double> tempMap=new HashMap<>();
@@ -100,7 +100,7 @@ public class Main{
     tempMap.put("BM", sumArr[3]);
     tempMap.put("HT", sumArr[4]);
 
-    System.out.println(tempMap);
+    //System.out.println(tempMap);
 
     ArrayList<String> tempList;
     for(String c1:tempMap.keySet()){
